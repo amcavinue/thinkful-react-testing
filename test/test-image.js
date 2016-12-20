@@ -2,7 +2,7 @@ var React = require('react');
 var TestUtils = require('react-addons-test-utils');
 var should = require('chai').should();
 
-var Image = require('../components/image');
+var Image = require('../js/components/image');
 
 describe('Image component', function() {
     it('Renders the image and description',  function() {
